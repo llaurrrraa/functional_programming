@@ -1,27 +1,29 @@
 
 .dark .slidev-slide-content {
-  background-color: #1100ff !important;
+  background-color: #000 !important;
 }
 .light .slidev-slide-content {
   background-color: #ef8585 !important;
   
 }
 .dark .slidev-layout {
-  background-image: 
+  /* background-image: 
     radial-gradient(closest-side, rgb(255, 120, 135), rgba(235, 105, 78, 0)), 
     radial-gradient(closest-side, rgb(8, 55, 209), rgba(243, 11, 164, 0)), 
     radial-gradient(closest-side, rgb(144, 249, 209), rgba(254, 234, 131, 0)), 
     radial-gradient(closest-side, rgb(153, 119, 247), rgba(170, 142, 245, 0)), 
-    radial-gradient(closest-side, rgb(55, 222, 255), rgba(248, 192, 147, 0));
+    radial-gradient(closest-side, rgb(55, 222, 255), rgba(248, 192, 147, 0)); */
+    background-color: #000;
 }
 
 .slidev-layout {
-  background-image: 
+  background-color: #000;
+  /* background-image: 
     radial-gradient(closest-side, rgb(255, 255, 255), rgba(235, 105, 78, 0)), 
     radial-gradient(closest-side, rgb(211, 225, 238), rgba(243, 11, 164, 0)), 
     radial-gradient(closest-side, rgb(236, 222, 153), rgba(254, 234, 131, 0)), 
     radial-gradient(closest-side, rgb(190, 170, 243), rgba(170, 142, 245, 0)), 
-    radial-gradient(closest-side, rgb(255, 237, 223), rgba(248, 192, 147, 0));
+    radial-gradient(closest-side, rgb(255, 237, 223), rgba(248, 192, 147, 0)); */
   background-size:
     130vmax 130vmax,
     80vmax 80vmax,
@@ -170,4 +172,12 @@ td {
   --color-blue: #aaccff;
   --color-purple: #ddbbff;
   --color-pink: #ffcccc; 
+}
+
+.red-text {
+  color: #f77381;
+}
+
+.page {
+  text-align: right;
 }
