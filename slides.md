@@ -361,7 +361,7 @@ mdc: true
 🎯 問題：重複的「遍歷 + [轉換元素]{style="color:yellow;font-weight: bold"} + 建立新陣列」
 
 ```js {all}{lines: true}
-function emailForCustomers(customers, goods, bests) {
+function emailsForCustomers(customers, goods, bests) {
   const emails = [];
   for(let i = 0; i < customers.length; i++) {
     const customer = customers[i];
@@ -452,7 +452,7 @@ layoutClass: gap-4
 ### 1. 辨識 前段、主體 與 後段
 
 ```js {all}{lines: true}
-function emailForCustomers(customers, goods, bests) {
+function emailsForCustomers(customers, goods, bests) {
   const emails = [];
   for(let i = 0; i < customers.length; i++) {
     const customer = customers[i]; // 前段
@@ -1065,8 +1065,7 @@ function getPurchaseTotal(purchase) {
 ✅ 程式碼更簡潔
 <br/>
 ✅ 高度宣告式
-<br/>
-❌ 除錯困難
+
 
 <div class='page'>
   {{ $page }}
